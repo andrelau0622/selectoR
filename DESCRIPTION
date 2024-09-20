@@ -1,0 +1,12 @@
+Package: selectoR
+Title: Feature selection tools all in one!
+Version: 0.1.0
+Authors@R: 
+    person("不能坐的", "SOFA", , "8303210616@csu.edu.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-0209-3245"))
+Description: Select features to develop prediction model.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
