@@ -12,20 +12,47 @@
 
 那么言归正传，selectoR包主要功能有：
 
-1. 变量相关性分析
+1.  变量相关性分析
 
-2. 膨胀因子（VIF）计算
+2.  膨胀因子（VIF）计算
 
-3. 单/多因素逻辑回归&逐步逻辑回归
+3.  单/多因素逻辑回归&逐步逻辑回归
 
-4. Boruta
+4.  Boruta
 
-5. LASSO
+5.  LASSO
 
-6. SVM-RFE
+6.  SVM-RFE
 
-7. 单变量AUC大于0.6
+7.  单变量AUC大于0.6
 
 具体使用请各位大佬移步demo.R
 
 祝大家玩得开心！🎉
+
+## Installation
+
+### Online Installation
+
+To install the package directly from GitHub, use the following command in R:
+
+``` r
+devtools::install_github("andrelau0622/selectoR")
+```
+
+### Offline Installation
+
+If you prefer to install the package from a local clone, follow these steps:
+
+1.  Clone the repository to your local machine:
+
+``` bash
+git clone https://github.com/andrelau0622/selectoR.git
+cd selectoR
+```
+
+2.  Install the package using devtools:
+
+``` r
+devtools::install()
+```

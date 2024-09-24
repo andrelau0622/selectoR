@@ -1,5 +1,3 @@
-# 安装并加载 selectoR 包
-devtools::install("andrelau0622/selectoR")  # 如果尚未安装
 library(selectoR)
 
 # 自定义参数
